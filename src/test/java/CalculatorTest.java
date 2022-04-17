@@ -25,7 +25,7 @@ public class CalculatorTest {
     @Test
     public void powerTruePositive(){
         assertEquals("Finding power for True Positive", 6, calculator.power(2, 3), DELTA);
-        assertEquals("Finding power for True Positive", 25, calculator.power(3, 3), DELTA);
+        assertEquals("Finding power for True Positive", 27, calculator.power(3, 3), DELTA);
         assertEquals("Finding power for True Positive", 64, calculator.power(4, 3), DELTA);
         assertEquals("Finding power for True Positive", 125, calculator.power(5, 3), DELTA);
     }
