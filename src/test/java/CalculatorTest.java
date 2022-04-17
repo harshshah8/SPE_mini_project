@@ -32,7 +32,7 @@ public class CalculatorTest {
 
     @Test
     public void powerFalsePositive(){
-        assertNotEquals("Finding power for False Positive", 6, calculator.power(2, 3), DELTA);
+        assertNotEquals("Finding power for False Positive", 8, calculator.power(2, 3), DELTA);
         assertNotEquals("Finding power for False Positive", -7.3, calculator.power(3, 3), DELTA);
         assertNotEquals("Finding power for False Positive", 87, calculator.power(4, 3), DELTA);
         assertNotEquals("Finding power for False Positive", -125, calculator.power(5, 3), DELTA);
