@@ -4,5 +4,5 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: vtandonv/calculatorusingdevopslatest
+        name: shahharsh8/speminiproject
         source: pull
